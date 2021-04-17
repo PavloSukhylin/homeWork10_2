@@ -7,12 +7,4 @@ public class Transport {
     protected int lenght;
     protected int height;
 
-    public static void main(String[] args) {
-        LandTransport landTransport = LandTransport.builder().widht(4).wheelsQuantity(4).build();
-        LandTransport landTransport2 = LandTransport.builder().widht(4).wheelsQuantity(4).height(10).lenght(99).build();
-        System.out.println(landTransport);
-        System.out.println(landTransport2);
-
-    }
-
 }
